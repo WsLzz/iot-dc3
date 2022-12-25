@@ -30,7 +30,6 @@
 
     <modules>
         <module>dc3-center-auth</module>
-        <module>dc3-center-register</module>
         <module>dc3-center-monitor</module>
         <module>dc3-center-manager</module>
         <module>dc3-center-data</module>
@@ -55,6 +54,19 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-undertow</artifactId>
+        </dependency>
+
+        <!--Nacos Registry Center-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+            <version>${spring-cloud-nacos.version}</version>
+        </dependency>
+
+        <!--健康检查-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
     </dependencies>
