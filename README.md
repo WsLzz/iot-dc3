@@ -13,6 +13,35 @@
 ------
 
 
+### 版本说明
+此版本为nacos注册中心版，开发计划如下:
+
+ >1. 使用nacos作为注册中心，替换eureka
+
+ >2. 使用nacos作为配置中心，替换config
+
+目前还处于第一步，后续会陆续更新，敬请期待，
+
+
+#### 当前进度
+* [x] Auth 认证服务
+* [x] Gateway 网关服务
+* [x] Monitor 监控服务
+* [x] Data 数据服务
+* [x] Manager 管理服务
+* [ ] EdgeGateway 边缘网关服务
+* [ ] Rtmp 推流服务
+* [ ] ListenerVitualDriver 监听虚拟驱动服务
+* [ ] ModbdbusTcpDriver ModbusTcp驱动服务
+* [ ] MqttDriver Mqtt驱动服务
+* [ ] OpcUaDriver OpcUa驱动服务
+* [ ] OpcDaDriver OpcDa驱动服务
+* [ ] Plcs7Driver Plcs7驱动服务
+* [ ] VirtualDriver 虚拟驱动服务
+* [ ] Nacos docker-compose 部署
+* [ ] docs update 文档更新
+
+
 ### 1 DC3 架构设计
 
 ![iot-dc3-architecture](./docs/images/dc3/architecture1.jpg)
