@@ -1,1 +1,5 @@
 # Test environment, customizable configuration
+driver:
+  schedule:
+    read:
+      corn: '0/2 * * * * ?'
